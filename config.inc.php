@@ -12,15 +12,15 @@
 
 #The constant for server settings, BASE_URI and BASE_URL
 
-define('BASE_URL', 'http://localhost/SimpleMVCTemplate/public');
-define('BASE_URI', 'C:\xampp/\htdocs\SimpleMVCTemplate');
+define('BASE_URL', 'absolute/URL/to/your/project/base/url');
+define('BASE_URI', 'absolute/path/to/your/project/folder');
 
 #define('BASE_URL', 'url to act as base for other URLs');
 #define('BASE_URI', 'Absolute Path to project folder');
 
 
 #default String which contains the file ROOT for the server files
-$_SERVER['FILE_ROOT'] = 'C:/xampp/htdocs/simpleMVCtemplate';
+$_SERVER['FILE_ROOT'] = 'absolute/path/to/your/project/folder';
 
 #$_SERVER['FILE_ROOT'] = 'Absolute Path to project folder';
 

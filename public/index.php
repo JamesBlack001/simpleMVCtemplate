@@ -3,8 +3,8 @@
 /**
  * The application is Bootstrapped from here.
  */
-require_once $_SERVER['DOCUMENT_ROOT'].'/simpleMVCtemplate/config.inc.php';
-require_once $_SERVER['DOCUMENT_ROOT'].'/simpleMVCtemplate/app/init.php';
+require_once $_SERVER['FILE_ROOT'].'/config.inc.php';
+require_once $_SERVER['FILE_ROOT'].'/app/init.php';
 
 
 $app = new App();
